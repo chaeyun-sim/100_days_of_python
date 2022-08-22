@@ -1,7 +1,7 @@
 # 100 days of python
 Bootcamp by Angela Yu at Udemy
-
 started 09. 08. 2022
+
 
 ## 2022/08/09
 https://github.com/chaeyun-sim/100_days_of_python/tree/main/day_1
