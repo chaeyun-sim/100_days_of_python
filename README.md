@@ -1,2 +1,2 @@
-# Hello-world
-깃헙 연습 중
+# 100 days of python
+Bootcamp by Angela Yu at Udemy
