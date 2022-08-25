@@ -1,6 +1,6 @@
 import os
 import random
-from art import logo
+import logo
 
 clear = lambda: os.system('clear')
 # lives = 0
