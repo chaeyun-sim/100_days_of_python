@@ -10,6 +10,7 @@
 
 from turtle import Turtle, Screen
 from snake import Snake
+from random import randint
 import time
 
 
@@ -33,6 +34,10 @@ while continue_game == True:
     time.sleep(0.1)
 
     snake.move()
+
+    # if snake.pos == food_position:
+    #     continue_game == False
+
 
     # snake.game_end()
     
