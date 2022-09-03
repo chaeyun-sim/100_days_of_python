@@ -47,17 +47,17 @@ while continue_game == True:
         scoreboard.game_over()
 
     # detect collision with tail
-    # for tt in snake.turtles:
-    #     if tt == snake.head:
-    #         pass
-    #     elif snake.head.distance(tt) < 10:
-    #         continue_game = False
-    #         scoreboard.game_over()
-
-    # use slicing to change shorter
-    for tt in snake.turtles[-1]:
-        if snake.head.distance(tt) < 10:
+    for tt in snake.turtles:
+        if tt == snake.head:
+            pass
+        elif snake.head.distance(tt) < 10:
             continue_game = False
             scoreboard.game_over()
+
+    # use slicing to change shorter
+    # for tt in snake.turtles[-1]:
+    #     if snake.head.distance(tt) < 10:
+    #         continue_game = False
+    #         scoreboard.game_over()
     
 screen.exitonclick()
