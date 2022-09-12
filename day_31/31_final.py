@@ -3,9 +3,11 @@ from tkinter import messagebox
 import pandas
 import random
 
+
 bg_color = '#b1ddc6'
 current_word = {}
 words_to_learn = {}
+
 
 try:
     data = pandas.read_csv('./day_31/words_to_learn.csv')
@@ -19,6 +21,7 @@ else:
 def next_word():
     global current_word
     global timer
+
     window.after_cancel(timer)
     current_word = random.choice(words_to_learn)
     canvas.itemconfig(title_text, text="French", fill="black")
@@ -31,14 +34,12 @@ def next_word_known():
     words_to_learn.remove(current_word)
     new_data = pandas.DataFrame(words_to_learn)
     new_data.to_csv("./day_31/words_to_learn.csv", index=False)
-    print(len(new_data))
 
     if len(new_data) == 0:
         messagebox.showinfo(title='Congradulations!', message="Congradulations!\nThere is no words to learn!")
+        quit()
     else:
         next_word()
-
-    
 
 
 def flip():
@@ -72,16 +73,13 @@ title_text = canvas.create_text(400, 150, text="Title", font=('Aria', 40, 'itali
 
 word_text = canvas.create_text(400, 263, font=('Ariel', 60, 'bold'))
 canvas.grid(column=0, row=0, columnspan=2)
-# canvas.pack()
 
 
 # buttons
 right_button = Button(image=right_image, highlightbackground= bg_color, command=next_word_known)
-# right_button.pack()
 right_button.grid(column=0,row=1)
 
 wrong_button = Button(image=wrong_image, highlightbackground= bg_color, command=next_word)
-# wrong_button.pack()
 wrong_button.grid(column=1,row=1)
 
 
