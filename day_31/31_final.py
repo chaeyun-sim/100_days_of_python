@@ -36,7 +36,7 @@ def next_word_known():
     new_data.to_csv("./day_31/words_to_learn.csv", index=False)
 
     if len(new_data) == 0:
-        messagebox.showinfo(title='Congradulations!', message="Congradulations!\nThere is no words to learn!")
+        messagebox.showinfo(title='Congratulations!', message="Congratulations!\nThere is no words to learn!")
         quit()
     else:
         next_word()
