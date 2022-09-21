@@ -30,17 +30,19 @@ result = response.json()
 
 SHEET_ENDPOINT = 'https://api.sheety.co/5c285828057ed114987d9150c97b40af/workoutTracking/workouts'
 
-for item in result['exercises']:
-    sheet_data = {
-        'workout':
-            {"date": today,
-             "time": now,
-             "exercise": item['user_input'].title(),
-             "duration": item['duration_min'],
-             "calories": item['nf_calories']
-             }
-    }
-    bearer_headers = {"Authorization": f'Basic {TOKEN}'}
-    # data_response = requests.post(sheet_endpoints, json=sheet_data)
-    data_response = requests.post(SHEET_ENDPOINT, json=sheet_data, headers=bearer_headers)
-    # print(data_response.text)
+
+
+# for item in result['exercises']:
+#     sheet_data = {
+#         'workout':
+#             {"date": today,
+#              "time": now,
+#              "exercise": item['user_input'].title(),
+#              "duration": item['duration_min'],
+#              "calories": item['nf_calories']
+#              }
+#     }
+#     bearer_headers = {"Authorization": f'Basic {TOKEN}'}
+#     # data_response = requests.post(sheet_endpoints, json=sheet_data)
+#     data_response = requests.post(SHEET_ENDPOINT, json=sheet_data, headers=bearer_headers)
+#     # print(data_response.text)
