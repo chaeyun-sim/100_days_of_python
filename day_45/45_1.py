@@ -4,11 +4,9 @@ import requests
 
 response = requests.get("https://news.ycombinator.com/news")
 yc_webpage = response.text
-
 soup = BeautifulSoup(yc_webpage, "html.parser")
-# print(soup)
+
 articles = soup.find_all(name="a", class_="titlelink")
-# print(story_links)
 article_texts = []
 article_links = []
 for article_tag in articles:
@@ -18,9 +16,6 @@ for article_tag in articles:
     article_links.append(link)
 
 article_upvote = [int(score.getText().split()[0]) for score in soup.find_all(name="span", class_="score")]
-# print(article_texts)
-# print(article_links)
-# print(article_upvote)
 
 largest_num = max(article_upvote)
 index = article_upvote.index(largest_num)
