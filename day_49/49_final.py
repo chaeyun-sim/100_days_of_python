@@ -23,11 +23,16 @@ pw.send_keys(Keys.ENTER)
 
 time.sleep(3)
 
-service = driver.find_element(By.CSS_SELECTOR, ".app-aware-link.link-without-hover-visited")
-service.send_keys(Keys.ENTER)
-# driver.find_element(By.CSS_SELECTOR,
-#                     ".follow.org-company-follow-button.org-top-card-primary-actions__action.artdeco-button"
-#                     ".artdeco-button--primary").click()
-# follow.send_keys(Keys.ENTER)
+# driver.find_element(By.CLASS_NAME, "follow.artdeco-button.artdeco-button--secondary.artdeco-button--2").click()
+
+driver.find_element(By.CLASS_NAME, "feed-shared-feed-discovery-entity__text-container.flex-grow-1").click()
+
+time.sleep(5)
+
+
+driver.find_element(By.CLASS_NAME, "follow.org-company-follow-button.org-top-card-primary-actions__action"
+                                   ".artdeco-button.artdeco-button--primary").click()
 
 time.sleep(120)
+
+
