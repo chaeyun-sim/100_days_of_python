@@ -1,4 +1,4 @@
 # 100 days of python
 Bootcamp by Angela Yu from Udemy
 
-started 2022. 08. 09
+starting from August 9, 2022
