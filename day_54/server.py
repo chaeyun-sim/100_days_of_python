@@ -14,4 +14,4 @@ def say_bye():
 
 
 if __name__ == "__main__":
-    app.run()  # terminal에 작성한 flask run과 같다. # 기존 pycharm 버튼으로 실행된다.
+    app.run()  # terminal에 작성한 flask run과 같음. # 기존 pycharm 버튼으로 실행된다.
