@@ -1,37 +1,44 @@
 body {
     font-family: 'Montserrat';
+    text-align: center;
 }
 
-#title {
-    background-color: #ff4c68;
-    color: #fff;
-}
-
-h1 {
-    font-family: 'Montserrat-Black', sans-serif;
-    font-weight:bold;
-    font-size: 3.5rem;
-    line-height: 1.5;
-}
-
-h2 {
-    font-family: 'Montserrat-Black', sans-serif;
-    font-weight: bold;
-    font-size: 3rem;
-    line-height: 1.5;
-}
-
-h3 {
-    font-family: 'Montserrat-Black', sans-serif;
-    font-weight: bold;
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat-Bold', sans-serif;
 }
 
 p {
     color: #8f8f8f;
 }
 
+/* Headings */
+
+.big-heading {
+    font-family: 'Montserrat-Black', sans-serif;
+    font-weight:bold;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* Containers */
+
 .container-fluid {
-    padding: 3% 15%;
+    padding: 7% 15%;
+}
+
+/* Sections */
+.colored-section {
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.white-section {
+    background-color: #fff;
 }
 
 /* Navigation Bar */
@@ -62,23 +69,36 @@ p {
     margin: 5% 3% 5% 0;
 }
 
-/* Title Image */
+/* Title */
+
+*#title.container-fluid {  /*특정부분 내부의 모든 동일한 클래스 선택*/
+    padding: 3% 15% 7%;
+    text-align: left;
+}
+
 .title-image {
-    width: 60%;
+    width: 30%;
     transform: rotate(25deg);
+    /* z-index: 1; */
+    position: absolute;
+    margin-right: 30%;
 }
 
 /* Feature Section */
 
+.feature-title {
+    font-size: 1.5rem;
+}
+
 #features {
-    padding: 7% 15%;
-    text-align: center;
     justify-items: center;
     /* margin-bottom: 10%; */
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
 }
 
 .feature-box {
-    text-align: center;
     padding: 5%;
 }
 
@@ -94,11 +114,13 @@ p {
 
 /* Testimonial Section */
 
+.testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
 #testimonials {
-    padding: 7% 15%;
-    text-align: center;
     background-color: #ef8172;
-    color: #fff;
 }
 
 .testimonial-image {
@@ -106,15 +128,10 @@ p {
     border-radius: 100%;
 }
 
-.carousel-item {
-    padding: 7% 15%;
-}
-
 /* Press Section */
 
 #press {
     background-color: #ef8172;
-    text-align: center;
     padding-bottom: 3%;
 }
 
@@ -125,9 +142,13 @@ p {
 
 /* Pricing Section */
 
+.price-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
 #pricing {
     padding: 100px;
-    text-align: center;
 }
 
 .pricing-column {
@@ -136,4 +157,44 @@ p {
 
 .btn-block {
     width: 90%;
+}
+
+
+@media (max-width: 995px){
+    #title {
+        text-align: center;
+    }
+    .title-image {
+        width: 60%;
+        position: static;
+        transform: rotate(0);
+        margin-right: 0%;
+        margin-top: 10%;
+    }
+    .center {
+        justify-items: center;
+        text-align: center;
+    }
+}
+
+@media (min-width: 1500px){
+    .title-image {
+        width: 20%;
+    }
+}
+
+/* CTA Section */
+
+#pad {
+    margin-left: 5%;
+}
+
+/* Footer Section */
+
+#footer {
+    background-color: #fff;
+}
+
+.social-icon {
+    margin: 20px 10px;
 }
