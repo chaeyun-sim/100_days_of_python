@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Add Book</title>
+</head>
+<body style="text-align: center; background-color: cornsilk;">
+    <h1 style="margin: 40px 0px;">Add New Book</h1>
+    <form action="{{ url_for('add') }}" method="POST">
+        <div style="margin-bottom: 15px;">
+            <label>Book Name</label><br><br>
+            <input name="title" type="text" style="height: 19px; width: 30%; margin-bottom: 10px;">
+        </div>
+        <div style="margin-bottom: 15px;">
+            <label>Book Author</label><br><br>
+            <input name="author" type="text" style="height: 19px; width: 30%; margin-bottom: 10px;">
+        </div>
+        <div style="margin-bottom: 15px;">
+            <label>Rating</label><br><br>
+            <input name="rating" type="text" style="height: 19px; width: 30%; margin-bottom: 20px;">
+        </div>
+        <div>
+            <a href="{{ url_for('home')}}" style="margin-right: 2%;">Back to Library</a>
+            <button type="submit">Add Book</button>
+        </div>
+    </form>
+</body>
+</html>
