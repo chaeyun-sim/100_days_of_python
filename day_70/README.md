@@ -1,0 +1,1 @@
+Blog Project moved to https://github.com/chaeyun-sim/angela-blog.
