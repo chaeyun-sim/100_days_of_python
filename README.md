@@ -93,7 +93,7 @@ Starting from August 9, 2022
 - [Day 77](https://github.com/chaeyun-sim/100_days_of_python/tree/main/day_77): Linear Regression and Data Visualisation with Seaborn
 - [Day 78](https://github.com/chaeyun-sim/100_days_of_python/tree/main/day_78): Analysing the Nobel Prize with Plotly, Matplotlib & Seaborn
 - [Day 79](https://github.com/chaeyun-sim/100_days_of_python/tree/main/day_79): The Tragic Discovery of Handwashing: t-Tests & Distributions
-- [Day 80](https://github.com/chaeyun-sim/100_days_of_python/tree/main/day_80): Capstone Project - Predict House Prices     // 여기까지 링크 연결함
+- [Day 80](https://github.com/chaeyun-sim/100_days_of_python/tree/main/day_80): Capstone Project - Predict House Prices
 
 ## **👨‍💻 Professional**
 
