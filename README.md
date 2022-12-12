@@ -97,26 +97,26 @@ Starting from August 9, 2022
 
 ## **👨‍💻 Professional**
 
-- [Day 81](https://github.com/chaeyun-sim/100-days-of-python/tree/main/day81): Portfolio Project - Text to Morse Code Converter
-- [Day 82](https://github.com/chaeyun-sim/100-days-of-python/tree/main/day82): Portfolio Project - A website to show off your skills and the things I built
-- [Day 83](https://github.com/chaeyun-sim/100-days-of-python/tree/main/day83): Portfolio Project - Built a text-based version of the Tic Tac Toe game
-- [Day 84](https://github.com/chaeyun-sim/100-days-of-python/tree/main/day84): Portfolio Project - A program where you can upload images and add a watermark
-- [Day 85](https://github.com/chaeyun-sim/100-days-of-python/tree/main/day85): Portfolio Project - A Tkinter GUI desktop application that tests your typing speed
-- [Day 86](https://github.com/chaeyun-sim/100-days-of-python/tree/main/day86): Portfolio Project - Using Python Turtle, build a clone of the 80s hit game Breakout
-- [Day 87](https://github.com/chaeyun-sim/100-days-of-python/tree/main/day87): Portfolio Project - Built a website that lists cafes with wifi and power for remote working
-- [Day 88](https://github.com/chaeyun-sim/100-days-of-python/tree/main/day88): Portfolio Project - Built a todo list website with Flask
-- [Day 89](https://github.com/chaeyun-sim/100-days-of-python/tree/main/day89): Portfolio Project - Disappearing Text Writing App
-- [Day 90](https://github.com/chaeyun-sim/100-days-of-python/tree/main/day90): Portfolio Project - Convert PDF to Audiobook
-- [Day 91](https://github.com/chaeyun-sim/100-days-of-python/tree/main/day91): Portfolio Project - Image Colour Palette Generator
-- [Day 92](https://github.com/chaeyun-sim/100-days-of-python/tree/main/day92): Portfolio Project - Built a custom web scraper to collect data
-- [Day 93](https://github.com/chaeyun-sim/100-days-of-python/tree/main/day93): Portfolio Project - Automate the Google Dinosaur Game
-- [Day 94](https://github.com/chaeyun-sim/100-days-of-python/tree/main/day94): Portfolio Project - Space Invaders
-- [Day 95](https://github.com/chaeyun-sim/100-days-of-python/tree/main/day95): Portfolio Project - Built a custom website using an API
-- [Day 96](https://github.com/chaeyun-sim/100-days-of-python/tree/main/day96): Portfolio Project - An eCommerce website with payment processing
-- [Day 97](https://github.com/chaeyun-sim/100-days-of-python/tree/main/day97): Portfolio Project - Sent a WhatsApp Message with Python
-- [Day 98](https://github.com/chaeyun-sim/100-days-of-python/tree/main/day98): Portfolio Project - Analysed and Visualise the Space Race
-- [Day 99](https://github.com/chaeyun-sim/100-days-of-python/tree/main/day99): Portfolio Project - Analyzing Deaths involving Police in the United States
-- [Day 100](https://github.com/chaeyun-sim/100-days-of-python/tree/main/day100): Portfolio Project - Predicting Earnings using Multivariable Regression
+- [Day 81](https://github.com/chaeyun-sim/100-days-of-python/tree/main/day_81): Portfolio Project - Text to Morse Code Converter
+- [Day 82](https://github.com/chaeyun-sim/100-days-of-python/tree/main/day_82): Portfolio Project - A website to show off your skills and the things I built
+- [Day 83](https://github.com/chaeyun-sim/100-days-of-python/tree/main/day_83): Portfolio Project - Built a text-based version of the Tic Tac Toe game
+- [Day 84](https://github.com/chaeyun-sim/100-days-of-python/tree/main/day_84): Portfolio Project - A program where you can upload images and add a watermark
+- [Day 85](https://github.com/chaeyun-sim/100-days-of-python/tree/main/day_85): Portfolio Project - A Tkinter GUI desktop application that tests your typing speed
+- [Day 86](https://github.com/chaeyun-sim/100-days-of-python/tree/main/day_86): Portfolio Project - Using Python Turtle, build a clone of the 80s hit game Breakout
+- [Day 87](https://github.com/chaeyun-sim/100-days-of-python/tree/main/day_87): Portfolio Project - Built a website that lists cafes with wifi and power for remote working
+- [Day 88](https://github.com/chaeyun-sim/100-days-of-python/tree/main/day_88): Portfolio Project - Built a todo list website with Flask
+- [Day 89](https://github.com/chaeyun-sim/100-days-of-python/tree/main/day_89): Portfolio Project - Disappearing Text Writing App
+- [Day 90](https://github.com/chaeyun-sim/100-days-of-python/tree/main/day_90): Portfolio Project - Convert PDF to Audiobook
+- [Day 91](https://github.com/chaeyun-sim/100-days-of-python/tree/main/day_91): Portfolio Project - Image Colour Palette Generator
+- [Day 92](https://github.com/chaeyun-sim/100-days-of-python/tree/main/day_92): Portfolio Project - Built a custom web scraper to collect data
+- [Day 93](https://github.com/chaeyun-sim/100-days-of-python/tree/main/day_93): Portfolio Project - Automate the Google Dinosaur Game
+- [Day 94](https://github.com/chaeyun-sim/100-days-of-python/tree/main/day_94): Portfolio Project - Space Invaders
+- [Day 95](https://github.com/chaeyun-sim/100-days-of-python/tree/main/day_95): Portfolio Project - Built a custom website using an API
+- [Day 96](https://github.com/chaeyun-sim/100-days-of-python/tree/main/day_96): Portfolio Project - An eCommerce website with payment processing
+- [Day 97](https://github.com/chaeyun-sim/100-days-of-python/tree/main/day_97): Portfolio Project - Sent a WhatsApp Message with Python
+- [Day 98](https://github.com/chaeyun-sim/100-days-of-python/tree/main/day_98): Portfolio Project - Analysed and Visualise the Space Race
+- [Day 99](https://github.com/chaeyun-sim/100-days-of-python/tree/main/day_99): Portfolio Project - Analyzing Deaths involving Police in the United States
+- [Day 100](https://github.com/chaeyun-sim/100-days-of-python/tree/main/day_100): Portfolio Project - Predicting Earnings using Multivariable Regression
 
 ## **Tools and technologies**
 
