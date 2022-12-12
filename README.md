@@ -97,7 +97,7 @@ Starting from August 9, 2022
 
 ## **👨‍💻 Professional**
 
-- [Day 81](https://github.com/chaeyun-sim/100-days-of-python/tree/main/day_81): Portfolio Project - Text to Morse Code Converter
+- [Day 81](https://github.com/chaeyun-sim/100_days_of_python/tree/main/day_81): Portfolio Project - Text to Morse Code Converter
 - [Day 82](https://github.com/chaeyun-sim/100-days-of-python/tree/main/day_82): Portfolio Project - A website to show off your skills and the things I built
 - [Day 83](https://github.com/chaeyun-sim/100-days-of-python/tree/main/day_83): Portfolio Project - Built a text-based version of the Tic Tac Toe game
 - [Day 84](https://github.com/chaeyun-sim/100-days-of-python/tree/main/day_84): Portfolio Project - A program where you can upload images and add a watermark
