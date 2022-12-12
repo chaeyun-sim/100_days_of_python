@@ -1,4 +1,3 @@
-# Text to Morse Code Converter
 from art import logo
 
 print(logo)
